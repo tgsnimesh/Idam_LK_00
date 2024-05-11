@@ -1,0 +1,49 @@
+
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+.container {
+    width: 1000px;
+}
+
+.navbar .navbar-brand img {
+    width: 120px;
+    margin: 0.5rem auto;
+}
+
+.navbar {
+    background-color: #019267;
+}
+.navbar .container .collapse .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar .container .collapse .navbar-nav .nav-item a{
+    color: #fff;
+    font-size: 0.8em;
+}
+.collapse .navbar-nav button {
+    font-weight: bold;
+}
+.navbar .container .collapse .navbar-nav .left-option .nav-item a {
+    font-weight: normal;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+.navbar .container .collapse .navbar-nav .left-option .nav-item {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.nav-item .all-ads{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.btn-post-your-add {
+    color: rgba(0, 0, 0, 0.630);
+}
+.btn-post-your-add:hover {
+    color: rgba(0, 0, 0, 0.730);
+}

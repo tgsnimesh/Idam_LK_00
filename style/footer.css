@@ -1,0 +1,75 @@
+
+.footer {
+    border-top: 3px solid #019267;
+}
+.footer .footer-item .sosial-link {
+    list-style-type: none;
+    padding: 0;
+}
+.footer .footer-item .footer-heeder {
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(49, 49, 49);
+    margin-bottom: 0;
+    margin-top: 0.8rem;
+}
+.footer .footer-item .sosial-link {
+    margin-top: 0.5rem;
+}
+.footer .footer-item .sosial-link a i {
+    font-size: 1.5em;
+    margin-right: 0.5rem;
+}
+.footer .footer-item .sosial-link .face-boock a{
+    color: #3b5998;
+    transition: 0.3s;
+}
+.footer .footer-item .sosial-link .face-boock a:hover{
+    color: #2c63da;
+}
+.footer .footer-item .sosial-link .twitter a{
+    color: #27a2d3;
+    transition: 0.3s;
+}
+.footer .footer-item .sosial-link .twitter a:hover{
+    color: #1685b1;
+}
+.footer .footer-item .sosial-link a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+.footer .footer-item ul li {
+    margin-bottom: 0.3rem;
+}
+
+.footer .footer-item .list-item {
+    padding: 0;
+    list-style: none;
+}
+.footer .footer-item .list-item li {
+    margin-bottom: 0;
+}
+.footer .footer-item .list-item li:first-child {
+    margin-top: 1rem;
+}
+.footer .footer-item .list-item li a {
+    font-size: 0.95em;
+    text-decoration: none;
+}
+
+.footer .bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer .bottom .logo {
+    width: 130px;
+    cursor: pointer;
+}
+.footer .bottom p {
+    margin-bottom: 0;
+    color: rgb(49, 49, 49);
+}
