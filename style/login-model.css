@@ -1,0 +1,49 @@
+
+.login-model .left > h3 {
+    font-size: 1.3em;
+}
+
+.login-model .left > p {
+    font-size: 0.95em;
+}
+
+.login-model .left ul {
+    padding-top: 1rem;
+}
+
+.login-model .left ul li {
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.login-model .right h3 {
+    font-size: 1.5em;
+} 
+
+.login-model .right .error-label {
+    font-size: 0.7em;
+    color: crimson;
+}
+
+.create-account p{
+    margin: 0;
+    font-size: 0.9em;
+    margin-top: 0.5rem;
+}
+.create-account p a {
+    margin-left: 0.5rem;
+}
+.login-footer {
+    text-align: center;
+}
+
+.login-footer > p {
+    font-size: 0.75em;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+.login-footer > a {
+    text-decoration: none;
+    font-size: 0.75em;
+}
