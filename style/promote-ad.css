@@ -1,0 +1,154 @@
+
+.promote-option-aria .header .title {
+    font-size: 0.91em;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+    margin-bottom: 0;
+}
+.promote-option-aria .header .des {
+    font-size: 0.91em;
+    color: gray;
+    margin-bottom: 0.5rem;
+    line-height: 2em;
+}
+
+.promote-option-aria .option-list .options-box {
+    background-color: rgba(71, 71, 71, 0.055);
+}
+.promote-option-aria .option-list .options-box .option-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.promote-option-aria .option-list .options-box .option-item .icon {
+    width: 60px;
+}
+.promote-option-aria .option-list .options-box .option-item .option-des {
+    max-width: 60%;
+}
+.promote-option-aria .option-list .options-box .option-item .option-des p{
+    font-size: 0.95em;
+    color: gray;
+    margin-bottom: 0;
+}
+.promote-option-aria .option-list .options-box .option-item .option-des p a {
+    text-decoration: none;
+    margin-left: 0.3rem;
+}
+.promote-option-aria .option-list .options-box .option-item .option-des .title{
+    font-size: 0.98em;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+    margin-bottom: 0.3rem;
+}
+.promote-option-aria .option-list .options-box .option-item .optino-price {
+    display: flex;
+    align-items: center;
+}
+.promote-option-aria .option-list .options-box .option-item .optino-price .price {
+    font-size: 0.96em;
+    color: rgb(77, 77, 77);
+    margin-right: 0.8rem;
+    margin-bottom: 0;
+}
+.promote-option-aria .option-list .options-box .option-item .optino-price i {
+    font-size: 1.4em;
+    color: #019267;
+    cursor: pointer;
+}
+
+
+
+.caro-top-bad i {
+    color: #019267;
+    font-size: 1.5em;
+
+}
+.urgent-bad {
+    text-align: center;
+}
+.urgent-bad p {
+    background-color: rgb(226, 109, 0);
+    margin-bottom: 0;
+    font-size: 0.65em;
+    width: 50px;
+    padding: 0.1rem 0.1rem;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 1px 1px 3px gray;
+    border-radius: 3px;
+}
+
+.promote-option-aria .option-list .options-box .option-item .btn-days-label {
+    font-size: 0.7em;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+    border: none;
+    margin-right: 1rem;
+    background-color: rgba(206, 206, 206, 0.74);
+    padding: 0.1rem 0.5rem;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.466);
+}
+
+
+
+.payment-box {
+    background-color: rgba(71, 71, 71, 0.055);
+}
+.payment-box .title p{
+    font-size: 0.95em;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.payment-box .payment-summary-box .summary, .payment-box .total-amount-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment-box .payment-summary-box .summary p{
+    font-size: 0.9em;
+    margin-bottom: 0.4rem;
+    color: rgb(63, 63, 63);
+}
+.payment-box .total-amount-box .text, .payment-box .total-amount-box .amount {
+    font-size: 0.96em;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+}
+
+.modal-body .title .text {
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+    font-size: 0.92em;
+    margin-left: 0.5rem;
+    margin-bottom: 0;
+}
+.modal-body .title .des {
+    font-size: 0.95em;
+    color: gray;
+}
+.modal-body .title .des a {
+    text-decoration: none;
+    margin-left: 0.2rem;
+}
+.modal-body .promote-days-option .option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal-body .promote-days-option .option .radio label {
+    font-weight: bold;
+    font-size: 0.91em;
+    color: rgb(63, 63, 63);
+    margin-left: 0.2rem;
+}
+.modal-body .promote-days-option .option .price {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 0.91em;
+    color: #019267;
+}
