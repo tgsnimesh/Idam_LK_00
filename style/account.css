@@ -1,0 +1,130 @@
+
+.account-option-link h4 {
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+
+.account-option-link > a > p {
+    margin: 0;
+}
+.account-option-link > a {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 0.5rem;
+    font-size: 0.95em;
+    text-decoration: none;
+}
+.account-option-link > a > i {
+    color: gray;
+}
+
+.account-option-link .active {
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+}
+
+/* ------------------------------------------- dashboard ------------------------------------------- */
+
+.login-name {
+    font-size: 1.3em;
+}
+
+.dashboard .sud-dis .republis-ad-area {
+    text-align: right;
+    padding: 0.5rem;
+    padding-right: 0;
+
+}
+.dashboard .sud-dis .republis-ad-area a {
+    text-decoration: none;
+}
+.dashboard .sud-dis .republis-ad-area a i {
+    margin-right: 0.5rem;
+}
+
+.dashboard .sud-dis .my-ads .btn-post-ad-aria {
+    text-align: center;
+}
+
+.dashboard .sud-dis .my-ads .btn-post-ad-aria p {
+    color: gray;
+    font-size: 0.95em;
+}
+.dashboard .sud-dis .my-ads .btn-post-ad-aria p:nth-child(1) {
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+}
+.dashboard .sud-dis .my-ads .btn-post-ad-aria button {
+    margin-top: 1.5rem;
+    box-shadow: 1px 1px 5px gray;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+}
+
+
+/* ------------------------------------------- settings ------------------------------------------- */
+
+.settings .title p, .membership .title p{
+    font-size: 1.5em;
+}
+
+.settings .sub-title {
+    font-size: 1.1em;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.change-details .email {
+    font-size: 0.95em;
+    color: #019267;
+    margin: 1rem 0.5rem;
+}
+.change-details .email span {
+    color: gray;
+}
+
+.input-item input[type="text"], .input-item input[type="password"], .input-item select {
+    width: 300px;
+}
+.input-item {
+    margin-bottom: 1rem;
+}
+.input-item label {
+    color: gray;
+    margin-bottom: 0.1rem;
+}
+.input-item .sub-item {
+    margin-right: 1rem;
+}
+.input-item button {
+    margin-top: 0.5rem;
+}
+
+.locations {
+    display: flex;
+}
+
+.input-item .error {
+    color: crimson;
+    font-size: 0.8em;
+}
+
+
+.dafault-favorite-ads {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    padding-bottom: 5rem;
+}
+.dafault-favorite-ads i {
+    font-size: 4em;
+    color: gold;
+    text-shadow: 1px 3px 5px gray;
+    margin-right: 1.5rem;
+}
+.dafault-favorite-ads p {
+    font-size: 1em;
+    font-weight: 600;
+}

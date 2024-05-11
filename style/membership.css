@@ -1,0 +1,147 @@
+
+.membership .become-member-ship-card .title, .membership .request-membership-card .title, .membership .verified-seller-card .title{
+    font-size: 0.7em;
+    color: rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+}
+.membership .become-member-ship-card .title > p, .membership .request-membership-card .title > p, .membership .verified-seller-card .title > p{
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+} 
+.membership .become-member-ship-card .title > i, .membership .request-membership-card .title > i, .membership .verified-seller-card .title > i{
+    font-size: 3em;
+}
+.membership .become-member-ship-card > p, .membership .request-membership-card > p, .membership .verified-seller-card > p{
+    margin-top: 1rem;
+    font-size: 0.9em;
+    line-height: 1.6em;
+    color: rgb(112, 112, 112);
+}
+.modal-body .title {
+    display: flex;
+    align-items: center;
+    color: rgb(56, 56, 56);
+}
+.modal-body .title > p {
+    font-size: 0.95em;
+    margin-bottom: 0;
+    margin-left: 0.4rem;
+}
+.modal-body .title > i {
+    font-size: 1.2em;
+}
+
+.company-image-aria {
+    position: relative;
+}
+.company-image-aria .cover-image > img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.company-image-aria .company-logo > img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.company-image-input-aria {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.company-image-input-aria label {
+    font-weight: 600;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+
+.shop-details .input-item .input-item-label {
+    font-size: 0.8em;
+    margin-bottom: 0.15rem;
+    color: gray;
+}
+.shop-details .input-error {
+    font-size: 0.75em;
+    color: crimson;
+}
+.cover-image-error, .logo-image-error {
+    font-size: 0.9em;
+    color: crimson;
+    font-weight: 600;
+    text-shadow: none;
+}
+.shop-details .input-item .contact-label {
+    font-size: 0.95em;
+    color: rgb(48, 48, 48);
+    font-weight: 600;
+}
+.shop-details .input-item .checkbox-label {
+    font-size: 0.9em;
+}
+.shop-details .title {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+.shop-timings-model .modal-title {
+    font-size: 0.95em;
+}
+
+.shop-timings {
+    text-align: right;
+}
+.shop-timings p {
+    text-align: left;
+}
+.shop-timings .notice {
+    color: gray;
+    font-size: 0.9em;
+    margin-bottom: 0.5rem;
+}
+.shop-timings a {
+    text-decoration: none;
+    font-weight: 600;
+}
+.shop-timings a > i {
+    margin-right: 0.3rem;
+    font-size: 1.1em;
+}
+
+.timings-box .day{
+    display: flex;
+}
+.timings-box .day .day-name {
+    margin-bottom: 0;
+    font-size: 0.95em;
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+    width: 500px;
+}
+.timings-box .day .title {
+    font-size: 0.95em;
+    font-weight: 600;
+}
+.timings-box .day input[type="time"], .timings-box .day input[type="text"], .timings-box .day .title {
+    margin-left: 0.5rem;
+}
+.timings-box .day input[type="text"] {
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+}
+.timings-box .day input[type="checkbox"] {
+    accent-color: crimson;
+}
