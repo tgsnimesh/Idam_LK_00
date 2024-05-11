@@ -1,0 +1,337 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb-item > a {
+    color: #2e2e2e;
+    font-size: 0.95em;
+}
+.breadcrumb-item {
+    font-size: 0.95em;
+}
+
+.advert-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.advert-header .title-aria .advert-title{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+    margin-bottom: 0.2rem;
+}
+.advert-header .title-aria > address {
+    font-size: 1em;
+    color: #7F8487;
+}
+.advert-header .share-aria {
+    display: flex;
+    align-items: center;
+}
+.advert-header .share-aria .share-potion, .advert-header .share-aria .share-potion > a{
+    color: #7F8487;
+    text-decoration: none;
+}
+.advert-header .share-aria .share-potion > i {
+    font-size: 1.1em;
+    margin-left: 1rem;
+}
+
+.advert-image-carousel .carousel-inner .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+.caro-indicator img {
+    height: 70px;
+    width: 130px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.caro-indicator img:hover {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+.caro-indicator {
+    justify-content: center;
+}
+
+.advert-image-carousel .carousel-inner .carousel-item .img-resize-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #2e2e2e;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.advert-image-carousel .carousel-inner .carousel-item .img-resize-button:hover {
+    background-color: gray;
+}
+.advert-image-carousel .carousel-inner .carousel-item .img-resize-button > i {
+    color: aliceblue;
+    padding: 0.4rem 0.5rem;
+    margin: 0;
+}
+
+#advert-image-carousel-resize .carousel-inner .carousel-item img {
+    height: 550px;
+    object-fit: contain;
+}
+
+.description-height {
+    height: 140px;
+}
+
+
+
+.advert-information .price {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #019267;
+    margin-top: 0.8rem;
+    margin-bottom: 0.1rem;
+}
+.advert-information .price p > span {
+    font-size: 0.6em;
+    font-weight: normal;
+    color: #7F8487;
+    font-style: italic;
+}
+
+.advert-information .sub-details > div p{
+    font-size: 0.98em;
+    text-transform: capitalize;
+    color: #666666;
+    margin-bottom: 0.2rem;
+}
+.advert-information .sub-details > div p > span {
+    color: #2e2e2e;
+}
+
+.advert-information .advert-description > p {
+    font-weight: bold;
+    color: #2e2e2e;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+.advert-information .advert-description > pre {
+    font-size: 0.96em;
+    line-height: 1.5em;
+    color: #666666;
+    margin-bottom: 0;
+    padding-top: 0.2rem;
+}
+.advert-information .advert-description .toggle-button {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.advert-information .advert-description .toggle-button button {
+    border: none;
+    background-color: transparent;
+    font-size: 0.92em;
+    color: #7F8487;
+}
+.advert-information .advert-description .toggle-button i {
+    /* font-size: 1.5em; */
+    font-weight: bold;
+    color: #2e2e2e;
+}
+
+.advert-contact-details .conact-box {
+    cursor: pointer;
+    position: sticky;
+    top: 10px;
+    box-shadow: 2px 3px 5px rgba(131, 131, 131, 0.123);
+}
+
+
+.company-detals .comany-img img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    object-position: center;
+}
+.conact-box .company-detals {
+    display: flex;
+    align-items: flex-start;
+}
+.conact-box .company-detals .detals {
+    margin-left: 0.5rem;
+}
+.conact-box .company-detals .detals .name {
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #2e2e2e;
+    margin: 0;
+}
+.conact-box .company-detals .detals .last-since {
+    font-size: 0.75em;
+    font-weight: bold;
+    color: #2e2e2e;
+    margin: 0;
+}
+.conact-box .company-detals .detals .member-shop {
+    font-size: 0.78em;
+    text-decoration: none;
+}
+.conact-box .chat, .conact-box .email {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #2e2e2e;
+    display: flex;
+    align-items: center;
+}
+.conact-box .email i {
+    font-size: 1.3em;
+    margin-right: 0.5rem;
+}
+.conact-box .email a {
+    font-size: 1em;
+    text-decoration: none;
+}
+.conact-box .chat:hover, .conact-box .email:hover {
+    cursor: pointer;
+}
+
+.conact-box .chat > p, .conact-box .email > p {
+    margin-bottom: 0;
+}
+.conact-box .chat > i, .conact-box .email > i {
+    font-size: 1.5em;
+    margin-right: 0.5rem;
+    color: #019267;
+    padding: 0.3rem 0;
+}
+
+.contact-number {
+    display: flex;
+    align-items: flex-start;
+}
+.contact-number:hover {
+    cursor: pointer;
+}
+.contact-number > i {
+    font-size: 1.5em;
+    color: #019267;
+    margin-right: 0.6rem;
+}
+.contact-number .number .number {
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #2e2e2e;
+    margin-bottom: 0.2rem;
+}
+.contact-number .number .notify {
+    font-size: 0.7em;
+    color: #7F8487;
+    margin-bottom: 0;
+}
+.nun-member-name p {
+    font-size: 0.9em;
+    color: #7F8487;
+    margin-bottom: 0;
+}
+.nun-member-name:hover {
+    cursor: pointer;
+}
+.nun-member-name p > span {
+    font-size: 1.1em;
+    color: #2e2e2e;
+    font-weight: bold;
+}
+#expand-number-aria > a {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+#expand-number-aria {
+    margin-top: 0.5rem;
+}
+
+.bottom-advert-option button > i {
+    margin-right: 0.5rem;
+}
+#btn-prmote-ad {
+    font-weight: bold;
+    color: #2e2e2e;
+}
+#btn-report-ad {
+    color: #666666;
+}
+
+.sujession-ads-aria .title {
+    display: flex;
+    align-items: center;
+}
+.sujession-ads-aria .title a > img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+.sujession-ads-aria .title p {
+    margin: 0;
+    font-size: 1.08em;
+    color: #666666;
+    margin-left: 1rem;
+}
+.sujession-ads-aria .title a {
+    font-size: 1.08em;
+    margin-left: 0.5rem;
+    text-decoration: none;
+}
+
+.sujession-ads-aria .indicators button{
+    width: 13px;
+    height: 14px;
+    margin-left: 0.1rem;
+    background-color: #666666;
+    border-radius: 50%;
+    border: none;
+    transition: 0.2s;
+}
+.sujession-ads-aria .indicators button:hover {
+    background-color: #2e2e2e;
+}
+
+.advert-sujession {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advert-sujession .suj-caro-prev, .advert-sujession .suj-caro-next {
+    border: none;
+    background-color: transparent;
+    font-size: 1.3em;
+    color: #666666;
+    transition: 0.3s;
+}
+.advert-sujession .suj-caro-prev:hover, .advert-sujession .suj-caro-next:hover {
+    color: #2e2e2e;
+}
+
+.advert-sujession .suj-caro-prev > i {
+    padding-right: 0.5rem;
+}
+.advert-sujession .suj-caro-next > i {
+    padding-left: 0.5rem;
+}
+
+.Similar-ads p{
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    font-size: 1.05em;
+    color: #2e2e2e;
+}
+
+.favorite i{
+    color: gold;
+    text-shadow: 1px 1px 3px gray;
+}
+.favorite #favorite {
+    color: gold;
+    text-shadow: 1px 0px 2px gray;
+}
